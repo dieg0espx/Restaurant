@@ -13,6 +13,14 @@
 		96CCD19C24763F62000A237F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CCD19A24763F62000A237F /* Main.storyboard */; };
 		96CCD19E24763F68000A237F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CCD19D24763F68000A237F /* Assets.xcassets */; };
 		96CCD1A124763F68000A237F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CCD19F24763F68000A237F /* LaunchScreen.storyboard */; };
+		96CCD1A9247642D8000A237F /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD1A8247642D8000A237F /* CategoryTableViewController.swift */; };
+		96CCD1AB247642E3000A237F /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD1AA247642E3000A237F /* MenuTableViewController.swift */; };
+		96CCD1AD247642EE000A237F /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD1AC247642EE000A237F /* OrderTableViewController.swift */; };
+		96CCD1AF247643CA000A237F /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD1AE247643CA000A237F /* MenuItemDetailViewController.swift */; };
+		96CCD1B124764405000A237F /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD1B024764405000A237F /* MenuItem.swift */; };
+		96CCD1B324764462000A237F /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD1B224764462000A237F /* IntermediaryModels.swift */; };
+		96CCD1B524764491000A237F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD1B424764491000A237F /* Order.swift */; };
+		96CCD1B7247644F8000A237F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCD1B6247644F8000A237F /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		96CCD19D24763F68000A237F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96CCD1A024763F68000A237F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96CCD1A224763F68000A237F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CCD1A8247642D8000A237F /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		96CCD1AA247642E3000A237F /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		96CCD1AC247642EE000A237F /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		96CCD1AE247643CA000A237F /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		96CCD1B024764405000A237F /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		96CCD1B224764462000A237F /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
+		96CCD1B424764491000A237F /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		96CCD1B6247644F8000A237F /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,14 @@
 				96CCD19D24763F68000A237F /* Assets.xcassets */,
 				96CCD19F24763F68000A237F /* LaunchScreen.storyboard */,
 				96CCD1A224763F68000A237F /* Info.plist */,
+				96CCD1A8247642D8000A237F /* CategoryTableViewController.swift */,
+				96CCD1AA247642E3000A237F /* MenuTableViewController.swift */,
+				96CCD1AC247642EE000A237F /* OrderTableViewController.swift */,
+				96CCD1AE247643CA000A237F /* MenuItemDetailViewController.swift */,
+				96CCD1B024764405000A237F /* MenuItem.swift */,
+				96CCD1B224764462000A237F /* IntermediaryModels.swift */,
+				96CCD1B424764491000A237F /* Order.swift */,
+				96CCD1B6247644F8000A237F /* MenuController.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -140,7 +164,15 @@
 			files = (
 				96CCD19924763F62000A237F /* ViewController.swift in Sources */,
 				96CCD19524763F62000A237F /* AppDelegate.swift in Sources */,
+				96CCD1B524764491000A237F /* Order.swift in Sources */,
+				96CCD1AB247642E3000A237F /* MenuTableViewController.swift in Sources */,
+				96CCD1AF247643CA000A237F /* MenuItemDetailViewController.swift in Sources */,
+				96CCD1B7247644F8000A237F /* MenuController.swift in Sources */,
 				96CCD19724763F62000A237F /* SceneDelegate.swift in Sources */,
+				96CCD1B324764462000A237F /* IntermediaryModels.swift in Sources */,
+				96CCD1B124764405000A237F /* MenuItem.swift in Sources */,
+				96CCD1AD247642EE000A237F /* OrderTableViewController.swift in Sources */,
+				96CCD1A9247642D8000A237F /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
